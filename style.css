@@ -1,0 +1,58 @@
+.BarreNavigation {
+    align-items: center;
+    background-color: rgb(241, 215, 235);
+    display: flex;
+   /* flex-direction: row;*/
+    justify-content:space-between;
+   /* padding: 20px;*/
+   margin-bottom: 70px;
+
+
+}
+.BarreNavigation img {
+  padding-left: 20px;
+  width: 150px;
+  height: 80px;
+}
+.BarreNavigation li{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-weight: bold;
+ display: inline;
+ margin: 1rem;
+ list-style: none;
+}
+.BarreNavigation a {
+  text-decoration: none;
+  color:rgb(17, 13, 6);
+
+}
+
+.About {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+.About h4{
+  font-size: 14px;
+  margin: 10px ;
+  font-display:block;
+  background-color: rgb(241, 215, 235);
+  padding: 20px;
+  align-content: center;
+  color: black;
+  
+  
+}
+.About img{
+  width: 300;
+  height: 300;
+  margin-top: 50px;
+}
+ i {
+  border: 4mm ridge rgba(220, 50, 209, 0.6);
+  padding: 20px;
+  margin-bottom: 50px;
+ 
+}
