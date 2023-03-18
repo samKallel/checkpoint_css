@@ -1,3 +1,8 @@
+body{
+  min-height: 100vh;
+  min-width: 90%;
+}
+
 .BarreNavigation {
     align-items: center;
     background-color: rgb(241, 215, 235);
@@ -28,8 +33,8 @@
 }
 
 .About {
-  align-items: center;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 
 
@@ -45,14 +50,52 @@
   
   
 }
-.About img{
+.About img {
   width: 300;
   height: 300;
   margin-top: 50px;
 }
- i {
-  border: 4mm ridge rgba(220, 50, 209, 0.6);
+  i {
+  border: 3mm ridge rgba(220, 50, 209, 0.6);
   padding: 20px;
   margin-bottom: 50px;
+  width: 100%;
+
  
+}
+.entremet {
+  display: flex;
+  justify-content:space-around;
+  border-top: 40px;
+  padding: 50px;
+  margin-top: 50px;
+
+}
+.entremet h2{
+  padding-right: 30px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  color: blueviolet;
+  text-shadow: 2cm;
+}
+.entremet a{
+  display: flex;
+  align-content:end;
+  align-items: flex-end;
+  
+
+
+}
+.entremet img{
+  padding: 50px;
+  display: flex;
+  align-items: center;
+
+}
+.entremet p{
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  background:  rgb(241, 215, 235);
 }
