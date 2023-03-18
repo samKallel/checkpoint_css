@@ -1,8 +1,3 @@
-body{
-  min-height: 100vh;
-  min-width: 90%;
-  position: relative;
-}
 
 .BarreNavigation {
     align-items: center;
@@ -62,6 +57,7 @@ body{
   padding: 5px;
   margin-bottom: 50px;
   width: 100%;
+  
 
  
 }
@@ -85,9 +81,6 @@ body{
   display: flex;
  align-content:flex-start;
   align-items:flex-end;
-
- 
-
  }
  .entremet tableau{
   display: flex;
@@ -103,5 +96,43 @@ body{
   padding: 50px;
   display: flex;
   align-items: center;
+  background:  rgb(241, 215, 235);
+}
+.macaron {
+  display: flex;
+  justify-content:space-around;
+  border-top: 40px;
+  padding: 50px;
+ /* margin-top: 50px;*/
+
+}
+.macaron h2{
+  padding-right: 30px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  color: blueviolet;
+  text-shadow: 2cm;
+}
+.macaron  a{
+  display: flex;
+ align-content:flex-start;
+  align-items:flex-end;
+ }
+ .macaron tableau{
+  display: flex;
+   flex-wrap:wrap;
+ }
+.macaron img{
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.macaron p {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  align-content: center;
   background:  rgb(241, 215, 235);
 }
