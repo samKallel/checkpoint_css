@@ -1,6 +1,7 @@
 body{
   min-height: 100vh;
   min-width: 90%;
+  position: relative;
 }
 
 .BarreNavigation {
@@ -56,8 +57,9 @@ body{
   margin-top: 50px;
 }
   i {
+  position:sticky;  
   border: 3mm ridge rgba(220, 50, 209, 0.6);
-  padding: 20px;
+  padding: 5px;
   margin-bottom: 50px;
   width: 100%;
 
@@ -81,12 +83,16 @@ body{
 }
 .entremet a{
   display: flex;
-  align-content:end;
-  align-items: flex-end;
-  
+ align-content:flex-start;
+  align-items:flex-end;
 
+ 
 
-}
+ }
+ .entremet tableau{
+  display: flex;
+   flex-wrap:wrap;
+ }
 .entremet img{
   padding: 50px;
   display: flex;
