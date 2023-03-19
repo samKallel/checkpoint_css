@@ -52,8 +52,7 @@
   margin-top: 50px;
 }
   i {
-  position:sticky;  
-  border: 3mm ridge rgba(220, 50, 209, 0.6);
+   border: 3mm ridge rgba(220, 50, 209, 0.6);
   padding: 5px;
   margin-bottom: 50px;
   width: 100%;
@@ -124,6 +123,7 @@
    flex-wrap:wrap;
  }
 .macaron img{
+  width: 500;
   padding: 50px;
   display: flex;
   align-items: center;
@@ -136,3 +136,64 @@
   align-content: center;
   background:  rgb(241, 215, 235);
 }
+.tarte {
+  display: flex;
+  justify-content:space-around;
+  border-top: 40px;
+  padding: 50px;
+ /* margin-top: 50px;*/
+
+}
+.tarte h2{
+  padding-right: 30px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  color: blueviolet;
+  text-shadow: 2cm;
+}
+.tarte  a{
+  display: flex;
+ align-content:flex-start;
+  align-items:flex-end;
+ }
+ .tarte tableau{
+  display: flex;
+   flex-wrap:wrap;
+ }
+.tarte img{
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.tarte p {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  background:  rgb(241, 215, 235);
+}
+.resume h3{
+  color: blueviolet;
+}
+.contactus {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 30px;
+  
+}
+.contactus h3, label{
+  color: blueviolet;
+}
+.contactus form {
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:space-between;
+  align-items: center;
+  top:50px;
+  padding-left: 50px:
+}
+  
