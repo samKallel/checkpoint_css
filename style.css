@@ -1,4 +1,6 @@
-
+@media screen and (max-width: 300px) {
+  /* write your CSS in this code block */
+}
 .BarreNavigation {
     align-items: center;
     background-color: rgb(241, 215, 235);
@@ -196,4 +198,7 @@
   top:50px;
   padding-left: 50px:
 }
-  
+  .contactus div button
+  {color:  rgb(44, 6, 80);
+    width: 50px;
+  }
